@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/parent-project.iml" filepath="$PROJECT_DIR$/.idea/parent-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-project-backend/parent-project-backend.iml" filepath="$PROJECT_DIR$/parent-project-backend/parent-project-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-project-frontend/parent-project-frontend.iml" filepath="$PROJECT_DIR$/parent-project-frontend/parent-project-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webapp/webapp.iml" filepath="$PROJECT_DIR$/webapp/webapp.iml" />
+    </modules>
+  </component>
+</project>
