@@ -22,4 +22,6 @@ public class CoreConfiguration {
         RandomNumberService service = new RandomNumberServiceImpl();
         return service;
     }
+
+    private CoreProperties coreProperties;
 }

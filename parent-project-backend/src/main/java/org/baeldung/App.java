@@ -7,10 +7,14 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.PropertySources;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "org.baeldung")
 @EnableConfigurationProperties
-@PropertySource("file:core/src/main/resources/application.properties")
-@PropertySource("file:service/src/main/resources/application.properties")
+//@PropertySources({
+//        @PropertySource("file:core/src/main/resources/application.properties"),
+//        @PropertySource("file:service/src/main/resources/application.properties")
+//})
+
+//@PropertySource("file:core/src/main/resources/core.properties")
 public class App {
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);

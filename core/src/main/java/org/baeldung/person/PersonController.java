@@ -1,5 +1,6 @@
 package org.baeldung.person;
 
+import org.baeldung.config.CoreProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
@@ -13,8 +14,8 @@ import java.util.List;
 @RestController
 public class PersonController {
 
-    @Value("${active-profile}")
-    private String testString;
+    @Autowired
+    CoreProperties coreProperties;
 
     private final PersonService personService;
 
@@ -23,14 +24,8 @@ public class PersonController {
         this.personService = personService;
     }
 
-//    @GetMapping
-//    public List<Person> getAllPeople(){
-//        return personService.getAllPerson();
-//    }
-
     @GetMapping
-    public String getAllPeople(){
-        return testString;
+    public List<Person> getAllPeople(){
+        return personService.getAllPerson();
     }
-
 }
