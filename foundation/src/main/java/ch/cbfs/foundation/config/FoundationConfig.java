@@ -1,0 +1,21 @@
+package ch.cbfs.foundation.config;
+
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan({
+        "ch.cbfs.foundation",
+        "ch.cbfs.core"
+})
+@EnableJpaRepositories("ch.cbfs.foundation")
+@EntityScan({
+        "ch.cbfs.foundation",
+        "ch.cbfs.core"
+})
+public class FoundationConfig {
+}

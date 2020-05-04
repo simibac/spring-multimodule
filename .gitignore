@@ -1,0 +1,5 @@
+idea/
+*idea/
+/core/target/*
+target/*
+*/target/*
