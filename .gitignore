@@ -1,5 +1,3 @@
 .idea
-*idea/
-/core/target/*
-target/*
-*/target/*
+target
+*.iml
