@@ -8,7 +8,7 @@
         <version>1</version>
     </parent>
 
-    <artifactId>core</artifactId>
+    <artifactId>foundation</artifactId>
     <version>1</version>
 
     <properties>
@@ -34,24 +34,13 @@
             <artifactId>flyway-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
-            <version>1.2</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.konghq</groupId>
-            <artifactId>unirest-java</artifactId>
-            <version>3.7.00</version>
+            <groupId>ch.cbfs</groupId>
+            <artifactId>core</artifactId>
+            <version>1</version>
         </dependency>
     </dependencies>
 
