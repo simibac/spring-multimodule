@@ -9,7 +9,7 @@
     <!-- lookup parent from repository -->
   </parent>
   <groupId>ch.cbfs</groupId>
-  <artifactId>parent-project</artifactId>
+  <artifactId>spring-multimodule</artifactId>
   <version>1</version>
 
   <name>parent-project</name>
