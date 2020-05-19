@@ -13,7 +13,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableAutoConfiguration
 @ComponentScan("ch.cbfs.core")
 @EnableJpaRepositories("ch.cbfs.core")
-@EntityScan("ch.cbfs.core")
+@EntityScan("ch.cbfs.migration")
 public class CoreConfig {
 
     @Bean

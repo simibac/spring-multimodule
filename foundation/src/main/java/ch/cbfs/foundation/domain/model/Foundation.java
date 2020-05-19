@@ -7,7 +7,7 @@ import javax.persistence.*;
 
 @Data
 @Entity
-@Table(name = "cbfs_foundation")
+@Table(name = "cbfs_foundation", schema = "foundation")
 public class Foundation {
 
     @Id

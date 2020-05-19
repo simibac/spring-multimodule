@@ -15,6 +15,6 @@ public class CorePropertiesTest {
 
     @Test
     public void load_test_properties_string_ok() {
-        Assert.assertEquals("core-test", coreProperties.activeProfile);
+        Assert.assertEquals("migration-test", coreProperties.activeProfile);
     }
 }
